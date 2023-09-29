@@ -1,0 +1,1 @@
+Imatge original: https://pixabay.com/es/photos/png-oso-de-peluche-mu%C3%B1eco-peluche-2629072/

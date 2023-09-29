@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+        }
+
+        .image {
+            width: 50%;
+            box-sizing: border-box;
+            padding: 5px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                flex-direction: column;
+                height: auto;
+            }
+
+            .image {
+                width: 100%;
+            }
+        }
+    </style>
+    <title>Oriol Cantero, Fotos</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="oso-asesino.png">
+            <figcaption>
+                PNG (1550KB)
+            </figcaption>
+        </div>
+        <div class="image">
+            <img src="oso-asesino.jpg">
+            <figcaption>
+                JPG (749KB)
+            </figcaption>
+        </div>
+        <div class="image">
+            <img src="oso-asesino.webp">
+            <figcaption>
+                WEBP (81,8KB)
+            </figcaption>
+        </div>
+        <div class="image">
+            <img src="oso-asesino.gif">
+            <figcaption>
+                GIF (438KB)
+            </figcaption>
+        </div>
+    </div>
+</body>
+
+</html>
